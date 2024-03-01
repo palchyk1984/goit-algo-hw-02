@@ -33,6 +33,7 @@ for _ in range(10):
     for _ in range(requests_to_process):
         process_request(request_queue, requests_dict)
 
+
 # Обробка всіх залишених заявок в кінці
 while not request_queue.empty():
     process_request(request_queue, requests_dict)
