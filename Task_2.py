@@ -13,7 +13,6 @@ def is_palindrome(s):
             return False  # Рядок не є паліндромом
     return True  # Рядок є паліндромом
 
-
 # Приклади використання
 print(is_palindrome("Madam"))  # True
 print(is_palindrome("A man a plan a canal Panama"))  # True
